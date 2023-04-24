@@ -19,6 +19,7 @@ This is a comprehensive style guide with conventions that the whole app should e
 
 
 ## CSS conventions
+- When defining dimmensions, try to avoid using absolute units (px, cm, in, etc.).... Instead use relative units such as (em,vw,vh,rem,%,etc.) this is good for responive design
 - import stylesheets for relevent components and sections of the app
 - Start with as little specificity as possible to avoid overwriting other css files
 - If short use one line, otherwise give each css attribute its own line
